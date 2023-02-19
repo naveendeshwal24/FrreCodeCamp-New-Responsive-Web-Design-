@@ -1,0 +1,26 @@
+body{
+background-color:rgba(255,127,127,0.5);
+}
+h1,p{
+  text-align:center;
+  margin:0 auto;
+}
+fieldset{
+  width:80%;
+  display:block;
+  margin: 0 auto; 
+  padding:10px 10px;
+  resize:both;
+  overflow:auto;
+  border:2px solid rgba(127,255,255,0.5);
+}
+.container{
+  font-size:20px;
+  font-family:Arial (sans-serif);
+  display:block;
+}
+#submit{
+width:100px;
+margin: o auto;
+
+}
