@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Survey Form</title>    
+    <meta lang="en" charset="UTF-8">
+    <h1 id="title">Survey Form</h1>    
+    <p id="description">Please fill the form</p>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <form id="survey-form" action="">
+        <fieldset class="form-field">
+          <div class="container">
+        <label id="name-label">Name: <input id="name" type="text" placeholder="enter your name"  required/>
+        </label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="enter the email" required></label>
+<label id="number-label">Number: <input id="number" type="number" placeholder="number" min="10" max="120" required></label>
+</div>
+<div class="container">
+<label for="dropdown">Type:
+<select id="dropdown">
+          <option>Attending</option>
+          <option>Non-Attending</option>
+        </select>
+        </label>
+</div>
+<div class="container">
+  <label>Gender: </label>
+<label> Male<input id="gender" type="radio" name="gender" value="male"></label>
+<label> Female<input id="gender" type="radio" name="gender" value="female"></label>
+
+<div class="container">
+  <label>Languages: </label>
+<label for="python">Python<input id="python" type="checkbox" value="py"></label>
+<label for="c++"> C++<input id="c++" type="checkbox" value="c++" ></label>
+</div>
+<div class="container">
+<label for="textarea">Comment: </label>
+<textarea rows="3" cols="25">Enter the suggestions...</textarea>
+</div>
+
+<input id="submit" type="submit">
+</fieldset>
+      </form>
+    </body>
+  </html>
